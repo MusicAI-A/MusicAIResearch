@@ -1,17 +1,12 @@
 # #1 FastSpeech: Fast, Robust and Controllable Text to Speech
 
-Date: May 22, 2019
-Paper: https://arxiv.org/pdf/1905.09263.pdf
-Tags: TTS
-생성날짜: February 5, 2021 1:49 AM
-
-[#1%20FastSpeech%20Fast,%20Robust%20and%20Controllable%20Text%20t%2092f079d035184123a321160435e8089c/1905.09263.pdf](#1%20FastSpeech%20Fast,%20Robust%20and%20Controllable%20Text%20t%2092f079d035184123a321160435e8089c/1905.09263.pdf)
+논문 URL : [fastspeech](https://arxiv.org/pdf/1905.09263.pdf)
 
 ## FastSpeech 요약
 
-FastSpeech는 Feed-Forward Transformer(FFT) block들을 이용하여 구성되었고 Length Regulator가 duration predictor를 이용하여 입력으로 들어오는 각 phoneme에 대한 duration을 예측하고 phoneme sequence의 hidden sates를 mel-spectrogram sequence에 맞게 조정함으로써 길이 조절이 가능한 non-autoregressive TTS 모델이다.
-
----
+FastSpeech는 Feed-Forward Transformer(FFT) block들을 이용하여 구성되었고 Length Regulator가 duration predictor를 이용하여 
+입력으로 들어오는 각 phoneme에 대한 duration을 예측하고 phoneme sequence의 hidden sates를 mel-spectrogram sequence에 맞게 
+조정함으로써 길이 조절이 가능한 non-autoregressive TTS 모델이다.
 
 - **Autoregressive TTS 의 한계점**
     1. 느린 inference 속도 : CNN, Transformer 기반의 TTS일지라도 autoregressive 모델은 긴 문장이 주어지면 합성 속도가 느리다. 
