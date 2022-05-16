@@ -13,7 +13,7 @@ FastSpeech는 Feed-Forward Transformer(FFT) block들을 이용하여 구성되�
     2. 합성음이 robust 하지 않음 : skipping, repeating과 같은 문제 발생
     3. 합성음을 조절할 수가 없음 : autoregressive 모델은 하나의 mel-spectrogram 밖에 만들어 낼 수 없음  
     
-    ![#1%20FastSpeech%20Fast,%20Robust%20and%20Controllable%20Text%20t%2092f079d035184123a321160435e8089c/Untitled.png](#1%20FastSpeech%20Fast,%20Robust%20and%20Controllable%20Text%20t%2092f079d035184123a321160435e8089c/Untitled.png)
+    ![0]( #1 FastSpeech Fast, Robust and Controllable Text t 92f079d035184123a321160435e8089c/Untitled.png)
     
 - **Contribution**
     1. mel-spectrogram을 병렬로 만들어 합성 속도가 매우 빠르다.
